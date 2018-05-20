@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Welcome" id="BYZ-38-t0r" customClass="ViewController" customModule="StoriesShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKl-E2-dWS">
+                                <rect key="frame" x="229" y="105" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="MYSTERY"/>
+                                <connections>
+                                    <segue destination="Dan-hQ-rLj" kind="presentation" id="frn-Di-Kul"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rt9-1x-GLl">
+                                <rect key="frame" x="51" y="245" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="HORROR"/>
+                                <connections>
+                                    <segue destination="PWf-f2-Uol" kind="presentation" id="J2L-QS-BE1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXU-mI-XVe">
+                                <rect key="frame" x="234" y="245" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="FICTION"/>
+                                <connections>
+                                    <segue destination="mhc-go-Wcc" kind="presentation" id="HUX-RD-0As"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="In9-Qx-PTL">
+                                <rect key="frame" x="32" y="452" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ROMANCE"/>
+                                <connections>
+                                    <segue destination="6RW-Nx-Mkg" kind="presentation" id="VZ2-R0-JAa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umO-iD-BKd">
+                                <rect key="frame" x="235" y="452" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="HUMOR"/>
+                                <connections>
+                                    <segue destination="Pse-u9-Eu5" kind="presentation" id="glg-X8-9TG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlw-FQ-jLf">
+                                <rect key="frame" x="147" y="605" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Notes"/>
+                                <connections>
+                                    <segue destination="xN7-kb-6bL" kind="presentation" id="UDG-al-FjA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlZ-Rr-d8d">
+                                <rect key="frame" x="39" y="105" width="93" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ADVENTURE "/>
+                                <connections>
+                                    <segue destination="smv-0m-HTV" kind="presentation" id="DNy-gA-1Zf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
+        </scene>
+        <!--Notes View Controller-->
+        <scene sceneID="5UX-7F-2Ta">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EvG-Xt-wiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="ztk-da-AEo" customClass="NotesViewController" customModule="StoriesShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mcR-no-PZN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pbr-mh-GH9">
+                                <rect key="frame" x="0.0" y="88" width="375" height="559"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="rH2-U2-5FH">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rH2-U2-5FH" id="utw-Oe-ZxS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTM-H8-fs0">
+                                <rect key="frame" x="142" y="679" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="Home" id="daa-Bz-CH3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="GFL-hm-HwB"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="67N-ee-i73"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="table" destination="pbr-mh-GH9" id="vRA-PN-QOW"/>
+                        <segue destination="TCq-uL-GOy" kind="show" identifier="detail" id="iM6-hM-xHC"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="764" y="1075.8620689655172"/>
+        </scene>
+        <!--Note-->
+        <scene sceneID="j9S-oW-YEv">
+            <objects>
+                <viewController title="Note" id="TCq-uL-GOy" customClass="DetailViewController" customModule="StoriesShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iaF-tp-jYu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="E5i-RE-6hr">
+                                <rect key="frame" x="0.0" y="88" width="375" height="530"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEV-ZL-8a8">
+                                <rect key="frame" x="0.0" y="678" width="375" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to Home Page"/>
+                                <connections>
+                                    <action selector="Welcome:" destination="ztk-da-AEo" eventType="touchUpInside" id="0KE-n2-fYL"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="dMo-Y6-FdO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Xdd-3P-hRY"/>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="E5i-RE-6hr" id="sse-AB-LVe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GxL-Gj-Ymc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1709.5999999999999" y="1075.8620689655172"/>
+        </scene>
+        <!--AdventureVC-->
+        <scene sceneID="iH3-Co-pBW">
+            <objects>
+                <viewController id="UrS-MX-0Vj" customClass="AdventureVC" customModule="StoriesShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bMQ-K4-tTb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAZ-GH-UFT">
+                                <rect key="frame" x="33" y="332" width="89" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ALLAN" image="the-ancient-allan-cover.jpg"/>
+                                <connections>
+                                    <action selector="allan:" destination="UrS-MX-0Vj" eventType="touchUpInside" id="mSd-2D-Dp2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nZ-r8-Kdg">
+                                <rect key="frame" x="201" y="135" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="TRAIL" image="the-pathless-trail-cover.jpg"/>
+                                <connections>
+                                    <action selector="trail:" destination="UrS-MX-0Vj" eventType="touchUpInside" id="aOV-Ff-Za4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1b-Ch-7o9">
+                                <rect key="frame" x="201" y="332" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ZENDA" image="the-prisoner-of-zenda-cover.jpg"/>
+                                <connections>
+                                    <action selector="zenda:" destination="UrS-MX-0Vj" eventType="touchUpInside" id="bBO-8M-oiE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fK7-6i-whl">
+                                <rect key="frame" x="22" y="542" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="STEPS" image="the-thirty-nine-steps-cover.jpg"/>
+                                <connections>
+                                    <action selector="steps:" destination="UrS-MX-0Vj" eventType="touchUpInside" id="zis-zr-cD1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBS-Al-Jzc">
+                                <rect key="frame" x="22" y="94" width="34" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="eVq-3d-YN5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8D-0i-TGr">
+                                <rect key="frame" x="22" y="135" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="MAN" image="man-in-the-iron-mask-cover.jpg"/>
+                                <connections>
+                                    <action selector="man:" destination="UrS-MX-0Vj" eventType="touchUpInside" id="xZu-bj-aAw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GJ-Ge-UzJ">
+                                <rect key="frame" x="201" y="542" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="TWENTY" image="twenty-years-after-cover.jpg"/>
+                                <connections>
+                                    <action selector="twenty:" destination="UrS-MX-0Vj" eventType="touchUpInside" id="qBH-xj-bZR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SjX-qk-8Lx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Bz-F1-pyJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="in9-TT-IVn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1709.5999999999999" y="31.773399014778327"/>
+        </scene>
+        <!--MysteryVC-->
+        <scene sceneID="tj9-nm-EQ6">
+            <objects>
+                <viewController id="GKi-QP-E8q" customClass="MysteryVC" customModule="StoriesShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0tO-sf-w9i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpM-rq-icm">
+                                <rect key="frame" x="41" y="197" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="WOMAN" image="women-in-white-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="woman:" destination="GKi-QP-E8q" eventType="touchUpInside" id="Ojl-SG-494"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oK4-XT-jzo">
+                                <rect key="frame" x="41" y="383" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AGENT" image="the-secret-agent-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="agent:" destination="GKi-QP-E8q" eventType="touchUpInside" id="Wpq-yU-Y7U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyx-1h-H2A">
+                                <rect key="frame" x="41" y="595" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="BETTLE" image="the-beetle-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="bettle:" destination="GKi-QP-E8q" eventType="touchUpInside" id="AhT-EB-znn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0aZ-uO-8H6">
+                                <rect key="frame" x="212" y="595" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="GREEN" image="greenmantle-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="Green:" destination="GKi-QP-E8q" eventType="touchUpInside" id="zjm-iv-3RX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwW-Ls-uZJ">
+                                <rect key="frame" x="212" y="383" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="MOON" image="the-moonstone-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="bookmoon:" destination="GKi-QP-E8q" eventType="touchUpInside" id="wct-uH-8Z0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYp-m6-CrZ" userLabel="EDWIN">
+                                <rect key="frame" x="212" y="197" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="EDWIN " image="mystery-of-edwin-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="edwin:" destination="GKi-QP-E8q" eventType="touchUpInside" id="f5K-M3-dY1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="546-g2-WIq">
+                                <rect key="frame" x="47" y="88" width="71" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="jxZ-b5-F3V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="txn-bT-11G"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qwh-EQ-mXa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UJT-GK-bc8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3320.8000000000002" y="31.773399014778327"/>
+        </scene>
+        <!--HorrorVC-->
+        <scene sceneID="peB-9B-Lh9">
+            <objects>
+                <viewController id="S7r-q4-1Z4" customClass="HorrorVC" customModule="StoriesShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y6e-vG-dVI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqk-zu-sjx">
+                                <rect key="frame" x="43" y="140" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SClub" image="the-sorcery-club-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="club:" destination="S7r-q4-1Z4" eventType="touchUpInside" id="rap-Sk-t5D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwm-A4-hPF">
+                                <rect key="frame" x="200" y="140" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Lady " image="the-lady-of-the-shroud-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="lady:" destination="S7r-q4-1Z4" eventType="touchUpInside" id="UvY-kb-I9c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9G-aF-FJ6">
+                                <rect key="frame" x="43" y="319" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Border" image="the-house-on-the-borderland-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="border:" destination="S7r-q4-1Z4" eventType="touchUpInside" id="Px4-PG-Fmu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0L-LP-v3M">
+                                <rect key="frame" x="200" y="319" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Vampire" image="the-house-of-the-vampire-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="vampire:" destination="S7r-q4-1Z4" eventType="touchUpInside" id="hnc-xl-Ame"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUw-Px-Ib6">
+                                <rect key="frame" x="43" y="488" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Souls" image="the-house-of-souls-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="souls:" destination="S7r-q4-1Z4" eventType="touchUpInside" id="9rI-oa-M9D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0M-1v-Qoe">
+                                <rect key="frame" x="200" y="488" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Dracula" image="draculas-guest-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="dracula:" destination="S7r-q4-1Z4" eventType="touchUpInside" id="TfB-ci-gDM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtU-Dw-u1Y">
+                                <rect key="frame" x="22" y="100" width="34" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="4fz-N5-p6p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SIT-VD-MNA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="T4D-zq-E8b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nvX-iY-aG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4756" y="33.990147783251231"/>
+        </scene>
+        <!--FictionVC-->
+        <scene sceneID="bRI-Xc-4Tk">
+            <objects>
+                <viewController id="LGc-my-bjZ" customClass="FictionVC" customModule="StoriesShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zpy-l2-Kql">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxH-hY-LdT">
+                                <rect key="frame" x="22" y="135" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="sleeper" image="sleepers-woke-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="sleep:" destination="LGc-my-bjZ" eventType="touchUpInside" id="uD2-z2-ueO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VD7-MT-Uh2">
+                                <rect key="frame" x="22" y="313" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="secret" image="the-secret-of-the-ninth-planet-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="secret:" destination="LGc-my-bjZ" eventType="touchUpInside" id="FcC-Qr-EeL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jQ-uA-t88">
+                                <rect key="frame" x="210" y="313" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="lost" image="the-lost-warship-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="lost:" destination="LGc-my-bjZ" eventType="touchUpInside" id="Bt9-MX-r74"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Tk-JU-AVx">
+                                <rect key="frame" x="22" y="493" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="time" image="the-end-of-time-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="time:" destination="LGc-my-bjZ" eventType="touchUpInside" id="qUD-65-4W1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhw-An-BIn">
+                                <rect key="frame" x="22" y="88" width="34" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="0jD-ro-DHK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4k9-FD-Xf7">
+                                <rect key="frame" x="210" y="493" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="trail" image="trail-of-space-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="trail:" destination="LGc-my-bjZ" eventType="touchUpInside" id="dRW-0g-NYx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DuT-Mb-kPg">
+                                <rect key="frame" x="206" y="135" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="terror" image="terror-from-depth-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="terror:" destination="LGc-my-bjZ" eventType="touchUpInside" id="KwT-uK-EF0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="y7K-Ag-hZP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zAJ-cX-Rod"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NPL-p5-aan" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6285.6000000000004" y="33.990147783251231"/>
+        </scene>
+        <!--RomanceVC-->
+        <scene sceneID="4ls-hU-2FM">
+            <objects>
+                <viewController id="lcp-si-0F2" customClass="RomanceVC" customModule="StoriesShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ada-RF-t2k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGW-Un-Guw">
+                                <rect key="frame" x="22" y="125" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="wast" image="wastralls-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="wast:" destination="lcp-si-0F2" eventType="touchUpInside" id="05H-LT-yVH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9F6-wU-Sza">
+                                <rect key="frame" x="198" y="125" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="love" image="the-evolution-of-love-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="love:" destination="lcp-si-0F2" eventType="touchUpInside" id="KNr-6Y-szv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrd-SL-5wf">
+                                <rect key="frame" x="22" y="310" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="india" image="star-of-india-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="india:" destination="lcp-si-0F2" eventType="touchUpInside" id="exz-rO-rnq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqh-eI-LXI">
+                                <rect key="frame" x="198" y="310" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="girl" image="only-a-girls-love.jpg"/>
+                                <connections>
+                                    <action selector="girl:" destination="lcp-si-0F2" eventType="touchUpInside" id="7OX-fp-chd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANm-dx-KGU">
+                                <rect key="frame" x="22" y="486" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="hints" image="hints-for-lovers-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="hint:" destination="lcp-si-0F2" eventType="touchUpInside" id="Fiq-nC-lMl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j09-44-QfW">
+                                <rect key="frame" x="22" y="88" width="34" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="QQ9-xU-X1h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsl-Nl-SbL">
+                                <rect key="frame" x="198" y="486" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="fall" image="falling-in-love-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="fall:" destination="lcp-si-0F2" eventType="touchUpInside" id="2vf-vy-O99"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5DU-wW-kVj"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="In8-Xy-1rk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LDB-3h-cmt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7736.8000000000002" y="29.55665024630542"/>
+        </scene>
+        <!--HumorVC-->
+        <scene sceneID="ebE-AN-XcE">
+            <objects>
+                <viewController id="kUI-dz-suU" customClass="HumorVC" customModule="StoriesShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mlj-gd-O6a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfc-dj-em1">
+                                <rect key="frame" x="16" y="143" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Boat" image="house-boat-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="boat:" destination="kUI-dz-suU" eventType="touchUpInside" id="eVo-Bc-Alu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2c-rl-9vI">
+                                <rect key="frame" x="16" y="353" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="client" image="spirit-in-exile-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="exile:" destination="kUI-dz-suU" eventType="touchUpInside" id="kDR-77-Ud0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7JE-lv-oSs">
+                                <rect key="frame" x="16" y="547" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="pun" image="the-new-pun-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="pun:" destination="kUI-dz-suU" eventType="touchUpInside" id="KFg-KF-Kp9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jg7-8v-52v">
+                                <rect key="frame" x="191" y="547" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="idiot" image="the-inventions-of-the-idiot-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="idiot:" destination="kUI-dz-suU" eventType="touchUpInside" id="jy2-Nk-gAc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1x-QM-otR">
+                                <rect key="frame" x="191" y="352" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="bindle" image="bindle-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="bundle:" destination="kUI-dz-suU" eventType="touchUpInside" id="d7H-pd-W9q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNC-H3-NbO">
+                                <rect key="frame" x="22" y="88" width="34" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="sNi-vL-rDe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpz-xM-6lk">
+                                <rect key="frame" x="191" y="142" width="111" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="dairy" image="the-diary-of-a-nobody-book-cover.jpg"/>
+                                <connections>
+                                    <action selector="dairy:" destination="kUI-dz-suU" eventType="touchUpInside" id="5nw-rM-gQx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JTY-03-mqi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZEb-ZX-rkk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d2E-Hx-YRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9388" y="24.384236453201972"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fuH-SF-aOI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="smv-0m-HTV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hFt-85-eE7">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UrS-MX-0Vj" kind="relationship" relationship="rootViewController" id="idf-Fc-66g"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ycY-76-qzX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="850" y="32"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5E8-LE-7M1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dan-hQ-rLj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="l04-qr-UTa">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GKi-QP-E8q" kind="relationship" relationship="rootViewController" id="xJK-AU-hsF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l6W-T1-aMC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2470" y="32"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jxb-10-lb9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PWf-f2-Uol" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Cil-Nv-3mc">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="S7r-q4-1Z4" kind="relationship" relationship="rootViewController" id="O6S-el-W0R"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dtQ-lH-bF5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4028" y="33.733133433283363"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RiF-Un-Hfy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mhc-go-Wcc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RSH-28-12s">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LGc-my-bjZ" kind="relationship" relationship="rootViewController" id="qW1-AJ-eE2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jmr-5V-djc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5470" y="34"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GY0-O5-iHL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6RW-Nx-Mkg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JGL-Er-itC">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lcp-si-0F2" kind="relationship" relationship="rootViewController" id="AX1-I3-52z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Kw-3h-Lmu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7036" y="30.134932533733135"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gCO-vL-KhB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pse-u9-Eu5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zm9-gQ-JBZ">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kUI-dz-suU" kind="relationship" relationship="rootViewController" id="oHx-AQ-pwc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AXD-lb-0kh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8448.7999999999993" y="24.7376311844078"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5Hc-c0-GY8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xN7-kb-6bL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dp5-kQ-PXa">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ztk-da-AEo" kind="relationship" relationship="rootViewController" id="rYq-Zl-YN2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nBR-zw-2uq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="1076"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bindle-book-cover.jpg" width="845" height="1200"/>
+        <image name="draculas-guest-book-cover.jpg" width="1410" height="2250"/>
+        <image name="falling-in-love-book-cover.jpg" width="1410" height="2250"/>
+        <image name="greenmantle-book-cover.jpg" width="1410" height="2250"/>
+        <image name="hints-for-lovers-book-cover.jpg" width="2244" height="3349"/>
+        <image name="house-boat-book-cover.jpg" width="748" height="1200"/>
+        <image name="man-in-the-iron-mask-cover.jpg" width="1229" height="1624"/>
+        <image name="mystery-of-edwin-book-cover.jpg" width="1410" height="2250"/>
+        <image name="only-a-girls-love.jpg" width="1410" height="2250"/>
+        <image name="sleepers-woke-book-cover.jpg" width="1400" height="2239"/>
+        <image name="spirit-in-exile-book-cover.jpg" width="907" height="1360"/>
+        <image name="star-of-india-book-cover.jpg" width="1410" height="2250"/>
+        <image name="terror-from-depth-book-cover.jpg" width="1400" height="2239"/>
+        <image name="the-ancient-allan-cover.jpg" width="907" height="1198"/>
+        <image name="the-beetle-book-cover.jpg" width="1410" height="2250"/>
+        <image name="the-diary-of-a-nobody-book-cover.jpg" width="792" height="1200"/>
+        <image name="the-end-of-time-book-cover.jpg" width="1410" height="2250"/>
+        <image name="the-evolution-of-love-book-cover.jpg" width="1410" height="2250"/>
+        <image name="the-house-of-souls-book-cover.jpg" width="1410" height="2250"/>
+        <image name="the-house-of-the-vampire-book-cover.jpg" width="1410" height="2250"/>
+        <image name="the-house-on-the-borderland-book-cover.jpg" width="1410" height="2250"/>
+        <image name="the-inventions-of-the-idiot-book-cover.jpg" width="1400" height="2239"/>
+        <image name="the-lady-of-the-shroud-book-cover.jpg" width="1410" height="2250"/>
+        <image name="the-lost-warship-book-cover.jpg" width="2078" height="2970"/>
+        <image name="the-moonstone-book-cover.jpg" width="1410" height="2250"/>
+        <image name="the-new-pun-book-cover.jpg" width="1044" height="1360"/>
+        <image name="the-pathless-trail-cover.jpg" width="807" height="1065"/>
+        <image name="the-prisoner-of-zenda-cover.jpg" width="787" height="1040"/>
+        <image name="the-secret-agent-book-cover.jpg" width="1410" height="2250"/>
+        <image name="the-secret-of-the-ninth-planet-book-cover.jpg" width="856" height="1024"/>
+        <image name="the-sorcery-club-book-cover.jpg" width="1410" height="2250"/>
+        <image name="the-thirty-nine-steps-cover.jpg" width="1326" height="1754"/>
+        <image name="trail-of-space-book-cover.jpg" width="1004" height="1500"/>
+        <image name="twenty-years-after-cover.jpg" width="609" height="801"/>
+        <image name="wastralls-book-cover.jpg" width="1410" height="2250"/>
+        <image name="women-in-white-book-cover.jpg" width="1410" height="2250"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="dMo-Y6-FdO"/>
+    </inferredMetricsTieBreakers>
+</document>

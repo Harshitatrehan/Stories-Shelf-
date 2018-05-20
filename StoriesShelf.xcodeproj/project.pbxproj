@@ -1,0 +1,934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56C0824D20AECD4B009AE644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0824C20AECD4B009AE644 /* AppDelegate.swift */; };
+		56C0824F20AECD4B009AE644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0824E20AECD4B009AE644 /* ViewController.swift */; };
+		56C0825220AECD4B009AE644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C0825020AECD4B009AE644 /* Main.storyboard */; };
+		56C0825520AECD4B009AE644 /* StoriesShelf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56C0825320AECD4B009AE644 /* StoriesShelf.xcdatamodeld */; };
+		56C0825720AECD4C009AE644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C0825620AECD4C009AE644 /* Assets.xcassets */; };
+		56C0825A20AECD4C009AE644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C0825820AECD4C009AE644 /* LaunchScreen.storyboard */; };
+		56C0826520AECD4C009AE644 /* StoriesShelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0826420AECD4C009AE644 /* StoriesShelfTests.swift */; };
+		56C0827020AECD4C009AE644 /* StoriesShelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0826F20AECD4C009AE644 /* StoriesShelfUITests.swift */; };
+		56C0827F20AECE3D009AE644 /* man-in-the-iron-mask-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0827E20AECE3D009AE644 /* man-in-the-iron-mask-cover.jpg */; };
+		56C0828120AECE45009AE644 /* the-ancient-allan-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0828020AECE45009AE644 /* the-ancient-allan-cover.jpg */; };
+		56C0828320AECE4C009AE644 /* the-pathless-trail-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0828220AECE4C009AE644 /* the-pathless-trail-cover.jpg */; };
+		56C0828520AECE55009AE644 /* the-prisoner-of-zenda-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0828420AECE55009AE644 /* the-prisoner-of-zenda-cover.jpg */; };
+		56C0828720AECE5D009AE644 /* the-thirty-nine-steps-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0828620AECE5D009AE644 /* the-thirty-nine-steps-cover.jpg */; };
+		56C0828920AECE65009AE644 /* twenty-years-after-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0828820AECE65009AE644 /* twenty-years-after-cover.jpg */; };
+		56C0828B20AECE75009AE644 /* The Man in the Iron Mask.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0828A20AECE75009AE644 /* The Man in the Iron Mask.pdf */; };
+		56C0828D20AECE83009AE644 /* The Ancient Allan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0828C20AECE83009AE644 /* The Ancient Allan.pdf */; };
+		56C0828F20AECE8B009AE644 /* The Pathless Trail.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0828E20AECE8B009AE644 /* The Pathless Trail.pdf */; };
+		56C0829120AECE96009AE644 /* The Prisoner of Zenda.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0829020AECE96009AE644 /* The Prisoner of Zenda.pdf */; };
+		56C0829320AECE9F009AE644 /* Twenty Years After.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0829220AECE9F009AE644 /* Twenty Years After.pdf */; };
+		56C0829520AECEB9009AE644 /* The Thirty Nine Steps.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0829420AECEB9009AE644 /* The Thirty Nine Steps.pdf */; };
+		56C0829720AECF43009AE644 /* AdventureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0829620AECF43009AE644 /* AdventureVC.swift */; };
+		56C0829920AED396009AE644 /* MysteryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0829820AED396009AE644 /* MysteryVC.swift */; };
+		56C0829B20AED421009AE644 /* Greenmantle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0829A20AED421009AE644 /* Greenmantle.pdf */; };
+		56C0829D20AED427009AE644 /* The Beetle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0829C20AED427009AE644 /* The Beetle.pdf */; };
+		56C0829F20AED42E009AE644 /* The Moonstone.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0829E20AED42E009AE644 /* The Moonstone.pdf */; };
+		56C082A120AED434009AE644 /* The Secret Agent.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082A020AED434009AE644 /* The Secret Agent.pdf */; };
+		56C082A320AED447009AE644 /* The Mystery of Edwin Drood.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082A220AED447009AE644 /* The Mystery of Edwin Drood.pdf */; };
+		56C082A520AED44F009AE644 /* The Woman in White.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082A420AED44E009AE644 /* The Woman in White.pdf */; };
+		56C082A720AED456009AE644 /* greenmantle-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082A620AED456009AE644 /* greenmantle-book-cover.jpg */; };
+		56C082A920AED464009AE644 /* the-beetle-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082A820AED464009AE644 /* the-beetle-book-cover.jpg */; };
+		56C082AB20AED46C009AE644 /* the-moonstone-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082AA20AED46C009AE644 /* the-moonstone-book-cover.jpg */; };
+		56C082AD20AED475009AE644 /* the-secret-agent-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082AC20AED475009AE644 /* the-secret-agent-book-cover.jpg */; };
+		56C082AF20AED492009AE644 /* mystery-of-edwin-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082AE20AED491009AE644 /* mystery-of-edwin-book-cover.jpg */; };
+		56C082B120AED49C009AE644 /* women-in-white-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082B020AED49C009AE644 /* women-in-white-book-cover.jpg */; };
+		56C082B320AEDA79009AE644 /* HorrorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C082B220AEDA79009AE644 /* HorrorVC.swift */; };
+		56C082B520AEDAD1009AE644 /* Dracula's Guest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082B420AEDAD1009AE644 /* Dracula's Guest.pdf */; };
+		56C082B720AEDAD7009AE644 /* The House of Souls.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082B620AEDAD6009AE644 /* The House of Souls.pdf */; };
+		56C082B920AEDADD009AE644 /* The House of the Vampire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082B820AEDADD009AE644 /* The House of the Vampire.pdf */; };
+		56C082BB20AEDAE4009AE644 /* The House on the Borderland.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082BA20AEDAE4009AE644 /* The House on the Borderland.pdf */; };
+		56C082BD20AEDAEB009AE644 /* The Lady of the Shroud.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082BC20AEDAEB009AE644 /* The Lady of the Shroud.pdf */; };
+		56C082BF20AEDAF2009AE644 /* The Sorcery Club.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082BE20AEDAF1009AE644 /* The Sorcery Club.pdf */; };
+		56C082C120AEDB3D009AE644 /* draculas-guest-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082C020AEDB3B009AE644 /* draculas-guest-book-cover.jpg */; };
+		56C082C320AEDB47009AE644 /* the-house-of-souls-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082C220AEDB45009AE644 /* the-house-of-souls-book-cover.jpg */; };
+		56C082C520AEDB50009AE644 /* the-house-of-the-vampire-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082C420AEDB4F009AE644 /* the-house-of-the-vampire-book-cover.jpg */; };
+		56C082C720AEDB5A009AE644 /* the-house-on-the-borderland-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082C620AEDB58009AE644 /* the-house-on-the-borderland-book-cover.jpg */; };
+		56C082C920AEDB65009AE644 /* the-lady-of-the-shroud-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082C820AEDB63009AE644 /* the-lady-of-the-shroud-book-cover.jpg */; };
+		56C082CB20AEDB6F009AE644 /* the-sorcery-club-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082CA20AEDB6D009AE644 /* the-sorcery-club-book-cover.jpg */; };
+		56C082CD20AEDEDE009AE644 /* On the Trail of the Space Pirates.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082CC20AEDEDE009AE644 /* On the Trail of the Space Pirates.pdf */; };
+		56C082CF20AEDEE2009AE644 /* The End of Time.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082CE20AEDEE2009AE644 /* The End of Time.pdf */; };
+		56C082D120AEDEE7009AE644 /* The Lost Warship.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082D020AEDEE7009AE644 /* The Lost Warship.pdf */; };
+		56C082D320AEDEF0009AE644 /* The Secret of the Ninth Planet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082D220AEDEF0009AE644 /* The Secret of the Ninth Planet.pdf */; };
+		56C082D720AEDF2A009AE644 /* When the Sleepers Woke.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082D620AEDF29009AE644 /* When the Sleepers Woke.pdf */; };
+		56C082D920AEDF41009AE644 /* trail-of-space-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082D820AEDF3D009AE644 /* trail-of-space-book-cover.jpg */; };
+		56C082DB20AEDF49009AE644 /* the-end-of-time-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082DA20AEDF46009AE644 /* the-end-of-time-book-cover.jpg */; };
+		56C082DD20AEDF52009AE644 /* the-lost-warship-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082DC20AEDF4F009AE644 /* the-lost-warship-book-cover.jpg */; };
+		56C082DF20AEDF5E009AE644 /* the-secret-of-the-ninth-planet-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082DE20AEDF5A009AE644 /* the-secret-of-the-ninth-planet-book-cover.jpg */; };
+		56C082E120AEDF68009AE644 /* terror-from-depth-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082E020AEDF65009AE644 /* terror-from-depth-book-cover.jpg */; };
+		56C082E320AEDF75009AE644 /* sleepers-woke-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082E220AEDF72009AE644 /* sleepers-woke-book-cover.jpg */; };
+		56C082E520AEDFAA009AE644 /* FictionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C082E420AEDFAA009AE644 /* FictionVC.swift */; };
+		56C082E720AEE5F7009AE644 /* The Terror from the Depths.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082E620AEE5F7009AE644 /* The Terror from the Depths.pdf */; };
+		56C082E920AEE6E4009AE644 /* RomanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C082E820AEE6E4009AE644 /* RomanceVC.swift */; };
+		56C082EB20AEE72A009AE644 /* Falling in Love.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082EA20AEE72A009AE644 /* Falling in Love.pdf */; };
+		56C082ED20AEE72F009AE644 /* Hints for Lovers.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082EC20AEE72E009AE644 /* Hints for Lovers.pdf */; };
+		56C082EF20AEE734009AE644 /* Only A Girl's Love.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082EE20AEE734009AE644 /* Only A Girl's Love.pdf */; };
+		56C082F120AEE739009AE644 /* Star of India.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082F020AEE739009AE644 /* Star of India.pdf */; };
+		56C082F320AEE73E009AE644 /* The Evolution of Love.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082F220AEE73E009AE644 /* The Evolution of Love.pdf */; };
+		56C082F520AEE744009AE644 /* Wastralls.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C082F420AEE744009AE644 /* Wastralls.pdf */; };
+		56C082F720AEE761009AE644 /* falling-in-love-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082F620AEE75A009AE644 /* falling-in-love-book-cover.jpg */; };
+		56C082F920AEE770009AE644 /* star-of-india-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082F820AEE76A009AE644 /* star-of-india-book-cover.jpg */; };
+		56C082FB20AEE77A009AE644 /* hints-for-lovers-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082FA20AEE774009AE644 /* hints-for-lovers-book-cover.jpg */; };
+		56C082FD20AEE786009AE644 /* the-evolution-of-love-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082FC20AEE780009AE644 /* the-evolution-of-love-book-cover.jpg */; };
+		56C082FF20AEE79A009AE644 /* wastralls-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C082FE20AEE794009AE644 /* wastralls-book-cover.jpg */; };
+		56C0830120AEE7BF009AE644 /* only-a-girls-love.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0830020AEE7B9009AE644 /* only-a-girls-love.jpg */; };
+		56C0830320AEEAED009AE644 /* HumorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0830220AEEAED009AE644 /* HumorVC.swift */; };
+		56C0830520AEEC81009AE644 /* The Inventions of the Idiot.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0830420AEEC81009AE644 /* The Inventions of the Idiot.pdf */; };
+		56C0830720AEEC86009AE644 /* The New Pun Book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0830620AEEC86009AE644 /* The New Pun Book.pdf */; };
+		56C0830920AEEC8D009AE644 /* Adventures of Bindle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0830820AEEC8D009AE644 /* Adventures of Bindle.pdf */; };
+		56C0830B20AEEC93009AE644 /* Toppleton's Client.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0830A20AEEC93009AE644 /* Toppleton's Client.pdf */; };
+		56C0830D20AEEC98009AE644 /* The Diary of a Nobody.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0830C20AEEC98009AE644 /* The Diary of a Nobody.pdf */; };
+		56C0830F20AEEC9E009AE644 /* A House-Boat on the Styx.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 56C0830E20AEEC9E009AE644 /* A House-Boat on the Styx.pdf */; };
+		56C0831120AEECAE009AE644 /* the-diary-of-a-nobody-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0831020AEECA7009AE644 /* the-diary-of-a-nobody-book-cover.jpg */; };
+		56C0831320AEED3D009AE644 /* the-inventions-of-the-idiot-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0831220AEED37009AE644 /* the-inventions-of-the-idiot-book-cover.jpg */; };
+		56C0831520AEEDD3009AE644 /* the-new-pun-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0831420AEEDCB009AE644 /* the-new-pun-book-cover.jpg */; };
+		56C0831720AEEDEE009AE644 /* bindle-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0831620AEEDE7009AE644 /* bindle-book-cover.jpg */; };
+		56C0831920AEEDFF009AE644 /* spirit-in-exile-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0831820AEEDF7009AE644 /* spirit-in-exile-book-cover.jpg */; };
+		56C0831B20AEEE15009AE644 /* house-boat-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0831A20AEEE0F009AE644 /* house-boat-book-cover.jpg */; };
+		56C0837E20B0953E009AE644 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0837D20B0953E009AE644 /* NotesViewController.swift */; };
+		56C0838020B0C81B009AE644 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0837F20B0C81B009AE644 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56C0826120AECD4C009AE644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56C0824120AECD4B009AE644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56C0824820AECD4B009AE644;
+			remoteInfo = StoriesShelf;
+		};
+		56C0826C20AECD4C009AE644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56C0824120AECD4B009AE644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56C0824820AECD4B009AE644;
+			remoteInfo = StoriesShelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56C0824920AECD4B009AE644 /* StoriesShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoriesShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C0824C20AECD4B009AE644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56C0824E20AECD4B009AE644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56C0825120AECD4B009AE644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56C0825420AECD4B009AE644 /* StoriesShelf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoriesShelf.xcdatamodel; sourceTree = "<group>"; };
+		56C0825620AECD4C009AE644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56C0825920AECD4C009AE644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56C0825B20AECD4C009AE644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C0826020AECD4C009AE644 /* StoriesShelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoriesShelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C0826420AECD4C009AE644 /* StoriesShelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesShelfTests.swift; sourceTree = "<group>"; };
+		56C0826620AECD4C009AE644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C0826B20AECD4C009AE644 /* StoriesShelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoriesShelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C0826F20AECD4C009AE644 /* StoriesShelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesShelfUITests.swift; sourceTree = "<group>"; };
+		56C0827120AECD4C009AE644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C0827E20AECE3D009AE644 /* man-in-the-iron-mask-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "man-in-the-iron-mask-cover.jpg"; sourceTree = "<group>"; };
+		56C0828020AECE45009AE644 /* the-ancient-allan-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-ancient-allan-cover.jpg"; sourceTree = "<group>"; };
+		56C0828220AECE4C009AE644 /* the-pathless-trail-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-pathless-trail-cover.jpg"; sourceTree = "<group>"; };
+		56C0828420AECE55009AE644 /* the-prisoner-of-zenda-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-prisoner-of-zenda-cover.jpg"; sourceTree = "<group>"; };
+		56C0828620AECE5D009AE644 /* the-thirty-nine-steps-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-thirty-nine-steps-cover.jpg"; sourceTree = "<group>"; };
+		56C0828820AECE65009AE644 /* twenty-years-after-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twenty-years-after-cover.jpg"; sourceTree = "<group>"; };
+		56C0828A20AECE75009AE644 /* The Man in the Iron Mask.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Man in the Iron Mask.pdf"; sourceTree = "<group>"; };
+		56C0828C20AECE83009AE644 /* The Ancient Allan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Ancient Allan.pdf"; sourceTree = "<group>"; };
+		56C0828E20AECE8B009AE644 /* The Pathless Trail.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Pathless Trail.pdf"; sourceTree = "<group>"; };
+		56C0829020AECE96009AE644 /* The Prisoner of Zenda.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Prisoner of Zenda.pdf"; sourceTree = "<group>"; };
+		56C0829220AECE9F009AE644 /* Twenty Years After.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Twenty Years After.pdf"; sourceTree = "<group>"; };
+		56C0829420AECEB9009AE644 /* The Thirty Nine Steps.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Thirty Nine Steps.pdf"; sourceTree = "<group>"; };
+		56C0829620AECF43009AE644 /* AdventureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureVC.swift; sourceTree = "<group>"; };
+		56C0829820AED396009AE644 /* MysteryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteryVC.swift; sourceTree = "<group>"; };
+		56C0829A20AED421009AE644 /* Greenmantle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Greenmantle.pdf; sourceTree = "<group>"; };
+		56C0829C20AED427009AE644 /* The Beetle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Beetle.pdf"; sourceTree = "<group>"; };
+		56C0829E20AED42E009AE644 /* The Moonstone.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Moonstone.pdf"; sourceTree = "<group>"; };
+		56C082A020AED434009AE644 /* The Secret Agent.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Secret Agent.pdf"; sourceTree = "<group>"; };
+		56C082A220AED447009AE644 /* The Mystery of Edwin Drood.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Mystery of Edwin Drood.pdf"; sourceTree = "<group>"; };
+		56C082A420AED44E009AE644 /* The Woman in White.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Woman in White.pdf"; sourceTree = "<group>"; };
+		56C082A620AED456009AE644 /* greenmantle-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "greenmantle-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082A820AED464009AE644 /* the-beetle-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-beetle-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082AA20AED46C009AE644 /* the-moonstone-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-moonstone-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082AC20AED475009AE644 /* the-secret-agent-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-secret-agent-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082AE20AED491009AE644 /* mystery-of-edwin-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mystery-of-edwin-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082B020AED49C009AE644 /* women-in-white-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "women-in-white-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082B220AEDA79009AE644 /* HorrorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorrorVC.swift; sourceTree = "<group>"; };
+		56C082B420AEDAD1009AE644 /* Dracula's Guest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dracula's Guest.pdf"; sourceTree = "<group>"; };
+		56C082B620AEDAD6009AE644 /* The House of Souls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The House of Souls.pdf"; sourceTree = "<group>"; };
+		56C082B820AEDADD009AE644 /* The House of the Vampire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The House of the Vampire.pdf"; sourceTree = "<group>"; };
+		56C082BA20AEDAE4009AE644 /* The House on the Borderland.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The House on the Borderland.pdf"; sourceTree = "<group>"; };
+		56C082BC20AEDAEB009AE644 /* The Lady of the Shroud.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Lady of the Shroud.pdf"; sourceTree = "<group>"; };
+		56C082BE20AEDAF1009AE644 /* The Sorcery Club.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Sorcery Club.pdf"; sourceTree = "<group>"; };
+		56C082C020AEDB3B009AE644 /* draculas-guest-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "draculas-guest-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082C220AEDB45009AE644 /* the-house-of-souls-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-house-of-souls-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082C420AEDB4F009AE644 /* the-house-of-the-vampire-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-house-of-the-vampire-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082C620AEDB58009AE644 /* the-house-on-the-borderland-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-house-on-the-borderland-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082C820AEDB63009AE644 /* the-lady-of-the-shroud-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-lady-of-the-shroud-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082CA20AEDB6D009AE644 /* the-sorcery-club-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-sorcery-club-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082CC20AEDEDE009AE644 /* On the Trail of the Space Pirates.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "On the Trail of the Space Pirates.pdf"; sourceTree = "<group>"; };
+		56C082CE20AEDEE2009AE644 /* The End of Time.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The End of Time.pdf"; sourceTree = "<group>"; };
+		56C082D020AEDEE7009AE644 /* The Lost Warship.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Lost Warship.pdf"; sourceTree = "<group>"; };
+		56C082D220AEDEF0009AE644 /* The Secret of the Ninth Planet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Secret of the Ninth Planet.pdf"; sourceTree = "<group>"; };
+		56C082D620AEDF29009AE644 /* When the Sleepers Woke.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "When the Sleepers Woke.pdf"; sourceTree = "<group>"; };
+		56C082D820AEDF3D009AE644 /* trail-of-space-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "trail-of-space-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082DA20AEDF46009AE644 /* the-end-of-time-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-end-of-time-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082DC20AEDF4F009AE644 /* the-lost-warship-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-lost-warship-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082DE20AEDF5A009AE644 /* the-secret-of-the-ninth-planet-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-secret-of-the-ninth-planet-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082E020AEDF65009AE644 /* terror-from-depth-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "terror-from-depth-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082E220AEDF72009AE644 /* sleepers-woke-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sleepers-woke-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082E420AEDFAA009AE644 /* FictionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FictionVC.swift; sourceTree = "<group>"; };
+		56C082E620AEE5F7009AE644 /* The Terror from the Depths.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Terror from the Depths.pdf"; sourceTree = "<group>"; };
+		56C082E820AEE6E4009AE644 /* RomanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanceVC.swift; sourceTree = "<group>"; };
+		56C082EA20AEE72A009AE644 /* Falling in Love.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Falling in Love.pdf"; sourceTree = "<group>"; };
+		56C082EC20AEE72E009AE644 /* Hints for Lovers.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hints for Lovers.pdf"; sourceTree = "<group>"; };
+		56C082EE20AEE734009AE644 /* Only A Girl's Love.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Only A Girl's Love.pdf"; sourceTree = "<group>"; };
+		56C082F020AEE739009AE644 /* Star of India.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Star of India.pdf"; sourceTree = "<group>"; };
+		56C082F220AEE73E009AE644 /* The Evolution of Love.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Evolution of Love.pdf"; sourceTree = "<group>"; };
+		56C082F420AEE744009AE644 /* Wastralls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Wastralls.pdf; sourceTree = "<group>"; };
+		56C082F620AEE75A009AE644 /* falling-in-love-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "falling-in-love-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082F820AEE76A009AE644 /* star-of-india-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "star-of-india-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082FA20AEE774009AE644 /* hints-for-lovers-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hints-for-lovers-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082FC20AEE780009AE644 /* the-evolution-of-love-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-evolution-of-love-book-cover.jpg"; sourceTree = "<group>"; };
+		56C082FE20AEE794009AE644 /* wastralls-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wastralls-book-cover.jpg"; sourceTree = "<group>"; };
+		56C0830020AEE7B9009AE644 /* only-a-girls-love.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "only-a-girls-love.jpg"; sourceTree = "<group>"; };
+		56C0830220AEEAED009AE644 /* HumorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumorVC.swift; sourceTree = "<group>"; };
+		56C0830420AEEC81009AE644 /* The Inventions of the Idiot.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Inventions of the Idiot.pdf"; sourceTree = "<group>"; };
+		56C0830620AEEC86009AE644 /* The New Pun Book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The New Pun Book.pdf"; sourceTree = "<group>"; };
+		56C0830820AEEC8D009AE644 /* Adventures of Bindle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Adventures of Bindle.pdf"; sourceTree = "<group>"; };
+		56C0830A20AEEC93009AE644 /* Toppleton's Client.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Toppleton's Client.pdf"; sourceTree = "<group>"; };
+		56C0830C20AEEC98009AE644 /* The Diary of a Nobody.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Diary of a Nobody.pdf"; sourceTree = "<group>"; };
+		56C0830E20AEEC9E009AE644 /* A House-Boat on the Styx.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "A House-Boat on the Styx.pdf"; sourceTree = "<group>"; };
+		56C0831020AEECA7009AE644 /* the-diary-of-a-nobody-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-diary-of-a-nobody-book-cover.jpg"; sourceTree = "<group>"; };
+		56C0831220AEED37009AE644 /* the-inventions-of-the-idiot-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-inventions-of-the-idiot-book-cover.jpg"; sourceTree = "<group>"; };
+		56C0831420AEEDCB009AE644 /* the-new-pun-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-new-pun-book-cover.jpg"; sourceTree = "<group>"; };
+		56C0831620AEEDE7009AE644 /* bindle-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bindle-book-cover.jpg"; sourceTree = "<group>"; };
+		56C0831820AEEDF7009AE644 /* spirit-in-exile-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "spirit-in-exile-book-cover.jpg"; sourceTree = "<group>"; };
+		56C0831A20AEEE0F009AE644 /* house-boat-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "house-boat-book-cover.jpg"; sourceTree = "<group>"; };
+		56C0837D20B0953E009AE644 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		56C0837F20B0C81B009AE644 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56C0824620AECD4B009AE644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0825D20AECD4C009AE644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0826820AECD4C009AE644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56C0824020AECD4B009AE644 = {
+			isa = PBXGroup;
+			children = (
+				56C0824B20AECD4B009AE644 /* StoriesShelf */,
+				56C0826320AECD4C009AE644 /* StoriesShelfTests */,
+				56C0826E20AECD4C009AE644 /* StoriesShelfUITests */,
+				56C0824A20AECD4B009AE644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56C0824A20AECD4B009AE644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56C0824920AECD4B009AE644 /* StoriesShelf.app */,
+				56C0826020AECD4C009AE644 /* StoriesShelfTests.xctest */,
+				56C0826B20AECD4C009AE644 /* StoriesShelfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56C0824B20AECD4B009AE644 /* StoriesShelf */ = {
+			isa = PBXGroup;
+			children = (
+				56C0827D20AECE1E009AE644 /* New Group */,
+				56C0824C20AECD4B009AE644 /* AppDelegate.swift */,
+				56C0824E20AECD4B009AE644 /* ViewController.swift */,
+				56C0829620AECF43009AE644 /* AdventureVC.swift */,
+				56C0829820AED396009AE644 /* MysteryVC.swift */,
+				56C082B220AEDA79009AE644 /* HorrorVC.swift */,
+				56C082E420AEDFAA009AE644 /* FictionVC.swift */,
+				56C082E820AEE6E4009AE644 /* RomanceVC.swift */,
+				56C0830220AEEAED009AE644 /* HumorVC.swift */,
+				56C0837D20B0953E009AE644 /* NotesViewController.swift */,
+				56C0837F20B0C81B009AE644 /* DetailViewController.swift */,
+				56C0825020AECD4B009AE644 /* Main.storyboard */,
+				56C0825620AECD4C009AE644 /* Assets.xcassets */,
+				56C0831A20AEEE0F009AE644 /* house-boat-book-cover.jpg */,
+				56C0831820AEEDF7009AE644 /* spirit-in-exile-book-cover.jpg */,
+				56C0831620AEEDE7009AE644 /* bindle-book-cover.jpg */,
+				56C0831420AEEDCB009AE644 /* the-new-pun-book-cover.jpg */,
+				56C0831220AEED37009AE644 /* the-inventions-of-the-idiot-book-cover.jpg */,
+				56C0831020AEECA7009AE644 /* the-diary-of-a-nobody-book-cover.jpg */,
+				56C0830020AEE7B9009AE644 /* only-a-girls-love.jpg */,
+				56C082FE20AEE794009AE644 /* wastralls-book-cover.jpg */,
+				56C082FC20AEE780009AE644 /* the-evolution-of-love-book-cover.jpg */,
+				56C082FA20AEE774009AE644 /* hints-for-lovers-book-cover.jpg */,
+				56C082F820AEE76A009AE644 /* star-of-india-book-cover.jpg */,
+				56C082F620AEE75A009AE644 /* falling-in-love-book-cover.jpg */,
+				56C082E220AEDF72009AE644 /* sleepers-woke-book-cover.jpg */,
+				56C082E020AEDF65009AE644 /* terror-from-depth-book-cover.jpg */,
+				56C082DE20AEDF5A009AE644 /* the-secret-of-the-ninth-planet-book-cover.jpg */,
+				56C082DC20AEDF4F009AE644 /* the-lost-warship-book-cover.jpg */,
+				56C082DA20AEDF46009AE644 /* the-end-of-time-book-cover.jpg */,
+				56C082D820AEDF3D009AE644 /* trail-of-space-book-cover.jpg */,
+				56C082CA20AEDB6D009AE644 /* the-sorcery-club-book-cover.jpg */,
+				56C082C820AEDB63009AE644 /* the-lady-of-the-shroud-book-cover.jpg */,
+				56C082C620AEDB58009AE644 /* the-house-on-the-borderland-book-cover.jpg */,
+				56C082C420AEDB4F009AE644 /* the-house-of-the-vampire-book-cover.jpg */,
+				56C082C220AEDB45009AE644 /* the-house-of-souls-book-cover.jpg */,
+				56C082C020AEDB3B009AE644 /* draculas-guest-book-cover.jpg */,
+				56C082B020AED49C009AE644 /* women-in-white-book-cover.jpg */,
+				56C082AE20AED491009AE644 /* mystery-of-edwin-book-cover.jpg */,
+				56C082AC20AED475009AE644 /* the-secret-agent-book-cover.jpg */,
+				56C082AA20AED46C009AE644 /* the-moonstone-book-cover.jpg */,
+				56C082A820AED464009AE644 /* the-beetle-book-cover.jpg */,
+				56C082A620AED456009AE644 /* greenmantle-book-cover.jpg */,
+				56C0827E20AECE3D009AE644 /* man-in-the-iron-mask-cover.jpg */,
+				56C0828020AECE45009AE644 /* the-ancient-allan-cover.jpg */,
+				56C0828220AECE4C009AE644 /* the-pathless-trail-cover.jpg */,
+				56C0828420AECE55009AE644 /* the-prisoner-of-zenda-cover.jpg */,
+				56C0828620AECE5D009AE644 /* the-thirty-nine-steps-cover.jpg */,
+				56C0828820AECE65009AE644 /* twenty-years-after-cover.jpg */,
+				56C0825820AECD4C009AE644 /* LaunchScreen.storyboard */,
+				56C0825B20AECD4C009AE644 /* Info.plist */,
+				56C0825320AECD4B009AE644 /* StoriesShelf.xcdatamodeld */,
+			);
+			path = StoriesShelf;
+			sourceTree = "<group>";
+		};
+		56C0826320AECD4C009AE644 /* StoriesShelfTests */ = {
+			isa = PBXGroup;
+			children = (
+				56C0826420AECD4C009AE644 /* StoriesShelfTests.swift */,
+				56C0826620AECD4C009AE644 /* Info.plist */,
+			);
+			path = StoriesShelfTests;
+			sourceTree = "<group>";
+		};
+		56C0826E20AECD4C009AE644 /* StoriesShelfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56C0826F20AECD4C009AE644 /* StoriesShelfUITests.swift */,
+				56C0827120AECD4C009AE644 /* Info.plist */,
+			);
+			path = StoriesShelfUITests;
+			sourceTree = "<group>";
+		};
+		56C0827D20AECE1E009AE644 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				56C0830E20AEEC9E009AE644 /* A House-Boat on the Styx.pdf */,
+				56C0830C20AEEC98009AE644 /* The Diary of a Nobody.pdf */,
+				56C0830A20AEEC93009AE644 /* Toppleton's Client.pdf */,
+				56C0830820AEEC8D009AE644 /* Adventures of Bindle.pdf */,
+				56C0830620AEEC86009AE644 /* The New Pun Book.pdf */,
+				56C0830420AEEC81009AE644 /* The Inventions of the Idiot.pdf */,
+				56C082F420AEE744009AE644 /* Wastralls.pdf */,
+				56C082F220AEE73E009AE644 /* The Evolution of Love.pdf */,
+				56C082F020AEE739009AE644 /* Star of India.pdf */,
+				56C082EE20AEE734009AE644 /* Only A Girl's Love.pdf */,
+				56C082EC20AEE72E009AE644 /* Hints for Lovers.pdf */,
+				56C082EA20AEE72A009AE644 /* Falling in Love.pdf */,
+				56C082E620AEE5F7009AE644 /* The Terror from the Depths.pdf */,
+				56C082D620AEDF29009AE644 /* When the Sleepers Woke.pdf */,
+				56C082D220AEDEF0009AE644 /* The Secret of the Ninth Planet.pdf */,
+				56C082D020AEDEE7009AE644 /* The Lost Warship.pdf */,
+				56C082CE20AEDEE2009AE644 /* The End of Time.pdf */,
+				56C082CC20AEDEDE009AE644 /* On the Trail of the Space Pirates.pdf */,
+				56C082BE20AEDAF1009AE644 /* The Sorcery Club.pdf */,
+				56C082BC20AEDAEB009AE644 /* The Lady of the Shroud.pdf */,
+				56C082BA20AEDAE4009AE644 /* The House on the Borderland.pdf */,
+				56C082B820AEDADD009AE644 /* The House of the Vampire.pdf */,
+				56C082B620AEDAD6009AE644 /* The House of Souls.pdf */,
+				56C082B420AEDAD1009AE644 /* Dracula's Guest.pdf */,
+				56C082A420AED44E009AE644 /* The Woman in White.pdf */,
+				56C082A220AED447009AE644 /* The Mystery of Edwin Drood.pdf */,
+				56C082A020AED434009AE644 /* The Secret Agent.pdf */,
+				56C0829E20AED42E009AE644 /* The Moonstone.pdf */,
+				56C0829C20AED427009AE644 /* The Beetle.pdf */,
+				56C0829A20AED421009AE644 /* Greenmantle.pdf */,
+				56C0828A20AECE75009AE644 /* The Man in the Iron Mask.pdf */,
+				56C0828C20AECE83009AE644 /* The Ancient Allan.pdf */,
+				56C0828E20AECE8B009AE644 /* The Pathless Trail.pdf */,
+				56C0829020AECE96009AE644 /* The Prisoner of Zenda.pdf */,
+				56C0829420AECEB9009AE644 /* The Thirty Nine Steps.pdf */,
+				56C0829220AECE9F009AE644 /* Twenty Years After.pdf */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56C0824820AECD4B009AE644 /* StoriesShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C0827420AECD4C009AE644 /* Build configuration list for PBXNativeTarget "StoriesShelf" */;
+			buildPhases = (
+				56C0824520AECD4B009AE644 /* Sources */,
+				56C0824620AECD4B009AE644 /* Frameworks */,
+				56C0824720AECD4B009AE644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoriesShelf;
+			productName = StoriesShelf;
+			productReference = 56C0824920AECD4B009AE644 /* StoriesShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56C0825F20AECD4C009AE644 /* StoriesShelfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C0827720AECD4C009AE644 /* Build configuration list for PBXNativeTarget "StoriesShelfTests" */;
+			buildPhases = (
+				56C0825C20AECD4C009AE644 /* Sources */,
+				56C0825D20AECD4C009AE644 /* Frameworks */,
+				56C0825E20AECD4C009AE644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56C0826220AECD4C009AE644 /* PBXTargetDependency */,
+			);
+			name = StoriesShelfTests;
+			productName = StoriesShelfTests;
+			productReference = 56C0826020AECD4C009AE644 /* StoriesShelfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56C0826A20AECD4C009AE644 /* StoriesShelfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C0827A20AECD4C009AE644 /* Build configuration list for PBXNativeTarget "StoriesShelfUITests" */;
+			buildPhases = (
+				56C0826720AECD4C009AE644 /* Sources */,
+				56C0826820AECD4C009AE644 /* Frameworks */,
+				56C0826920AECD4C009AE644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56C0826D20AECD4C009AE644 /* PBXTargetDependency */,
+			);
+			name = StoriesShelfUITests;
+			productName = StoriesShelfUITests;
+			productReference = 56C0826B20AECD4C009AE644 /* StoriesShelfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56C0824120AECD4B009AE644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Deakin;
+				TargetAttributes = {
+					56C0824820AECD4B009AE644 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					56C0825F20AECD4C009AE644 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 56C0824820AECD4B009AE644;
+					};
+					56C0826A20AECD4C009AE644 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 56C0824820AECD4B009AE644;
+					};
+				};
+			};
+			buildConfigurationList = 56C0824420AECD4B009AE644 /* Build configuration list for PBXProject "StoriesShelf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56C0824020AECD4B009AE644;
+			productRefGroup = 56C0824A20AECD4B009AE644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56C0824820AECD4B009AE644 /* StoriesShelf */,
+				56C0825F20AECD4C009AE644 /* StoriesShelfTests */,
+				56C0826A20AECD4C009AE644 /* StoriesShelfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56C0824720AECD4B009AE644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C0828320AECE4C009AE644 /* the-pathless-trail-cover.jpg in Resources */,
+				56C082CD20AEDEDE009AE644 /* On the Trail of the Space Pirates.pdf in Resources */,
+				56C0830920AEEC8D009AE644 /* Adventures of Bindle.pdf in Resources */,
+				56C082AD20AED475009AE644 /* the-secret-agent-book-cover.jpg in Resources */,
+				56C082CB20AEDB6F009AE644 /* the-sorcery-club-book-cover.jpg in Resources */,
+				56C0828D20AECE83009AE644 /* The Ancient Allan.pdf in Resources */,
+				56C082F920AEE770009AE644 /* star-of-india-book-cover.jpg in Resources */,
+				56C0825A20AECD4C009AE644 /* LaunchScreen.storyboard in Resources */,
+				56C082BB20AEDAE4009AE644 /* The House on the Borderland.pdf in Resources */,
+				56C0830720AEEC86009AE644 /* The New Pun Book.pdf in Resources */,
+				56C082EF20AEE734009AE644 /* Only A Girl's Love.pdf in Resources */,
+				56C0827F20AECE3D009AE644 /* man-in-the-iron-mask-cover.jpg in Resources */,
+				56C082B720AEDAD7009AE644 /* The House of Souls.pdf in Resources */,
+				56C0829120AECE96009AE644 /* The Prisoner of Zenda.pdf in Resources */,
+				56C082C720AEDB5A009AE644 /* the-house-on-the-borderland-book-cover.jpg in Resources */,
+				56C082A520AED44F009AE644 /* The Woman in White.pdf in Resources */,
+				56C0831B20AEEE15009AE644 /* house-boat-book-cover.jpg in Resources */,
+				56C082A120AED434009AE644 /* The Secret Agent.pdf in Resources */,
+				56C082CF20AEDEE2009AE644 /* The End of Time.pdf in Resources */,
+				56C082AB20AED46C009AE644 /* the-moonstone-book-cover.jpg in Resources */,
+				56C082D120AEDEE7009AE644 /* The Lost Warship.pdf in Resources */,
+				56C082FF20AEE79A009AE644 /* wastralls-book-cover.jpg in Resources */,
+				56C0831720AEEDEE009AE644 /* bindle-book-cover.jpg in Resources */,
+				56C0828920AECE65009AE644 /* twenty-years-after-cover.jpg in Resources */,
+				56C082E720AEE5F7009AE644 /* The Terror from the Depths.pdf in Resources */,
+				56C082E320AEDF75009AE644 /* sleepers-woke-book-cover.jpg in Resources */,
+				56C082ED20AEE72F009AE644 /* Hints for Lovers.pdf in Resources */,
+				56C0831920AEEDFF009AE644 /* spirit-in-exile-book-cover.jpg in Resources */,
+				56C0825720AECD4C009AE644 /* Assets.xcassets in Resources */,
+				56C0831120AEECAE009AE644 /* the-diary-of-a-nobody-book-cover.jpg in Resources */,
+				56C082A320AED447009AE644 /* The Mystery of Edwin Drood.pdf in Resources */,
+				56C082BF20AEDAF2009AE644 /* The Sorcery Club.pdf in Resources */,
+				56C082B120AED49C009AE644 /* women-in-white-book-cover.jpg in Resources */,
+				56C082F720AEE761009AE644 /* falling-in-love-book-cover.jpg in Resources */,
+				56C082F520AEE744009AE644 /* Wastralls.pdf in Resources */,
+				56C082FD20AEE786009AE644 /* the-evolution-of-love-book-cover.jpg in Resources */,
+				56C082FB20AEE77A009AE644 /* hints-for-lovers-book-cover.jpg in Resources */,
+				56C0828B20AECE75009AE644 /* The Man in the Iron Mask.pdf in Resources */,
+				56C0829D20AED427009AE644 /* The Beetle.pdf in Resources */,
+				56C0830120AEE7BF009AE644 /* only-a-girls-love.jpg in Resources */,
+				56C0831520AEEDD3009AE644 /* the-new-pun-book-cover.jpg in Resources */,
+				56C0831320AEED3D009AE644 /* the-inventions-of-the-idiot-book-cover.jpg in Resources */,
+				56C0828F20AECE8B009AE644 /* The Pathless Trail.pdf in Resources */,
+				56C082D720AEDF2A009AE644 /* When the Sleepers Woke.pdf in Resources */,
+				56C0830B20AEEC93009AE644 /* Toppleton's Client.pdf in Resources */,
+				56C0830520AEEC81009AE644 /* The Inventions of the Idiot.pdf in Resources */,
+				56C082AF20AED492009AE644 /* mystery-of-edwin-book-cover.jpg in Resources */,
+				56C0829F20AED42E009AE644 /* The Moonstone.pdf in Resources */,
+				56C082DB20AEDF49009AE644 /* the-end-of-time-book-cover.jpg in Resources */,
+				56C082DD20AEDF52009AE644 /* the-lost-warship-book-cover.jpg in Resources */,
+				56C082C520AEDB50009AE644 /* the-house-of-the-vampire-book-cover.jpg in Resources */,
+				56C082F320AEE73E009AE644 /* The Evolution of Love.pdf in Resources */,
+				56C0829B20AED421009AE644 /* Greenmantle.pdf in Resources */,
+				56C0829320AECE9F009AE644 /* Twenty Years After.pdf in Resources */,
+				56C0830D20AEEC98009AE644 /* The Diary of a Nobody.pdf in Resources */,
+				56C082B920AEDADD009AE644 /* The House of the Vampire.pdf in Resources */,
+				56C082C120AEDB3D009AE644 /* draculas-guest-book-cover.jpg in Resources */,
+				56C082C320AEDB47009AE644 /* the-house-of-souls-book-cover.jpg in Resources */,
+				56C082EB20AEE72A009AE644 /* Falling in Love.pdf in Resources */,
+				56C082C920AEDB65009AE644 /* the-lady-of-the-shroud-book-cover.jpg in Resources */,
+				56C082DF20AEDF5E009AE644 /* the-secret-of-the-ninth-planet-book-cover.jpg in Resources */,
+				56C082D320AEDEF0009AE644 /* The Secret of the Ninth Planet.pdf in Resources */,
+				56C082A920AED464009AE644 /* the-beetle-book-cover.jpg in Resources */,
+				56C082D920AEDF41009AE644 /* trail-of-space-book-cover.jpg in Resources */,
+				56C082BD20AEDAEB009AE644 /* The Lady of the Shroud.pdf in Resources */,
+				56C0830F20AEEC9E009AE644 /* A House-Boat on the Styx.pdf in Resources */,
+				56C0829520AECEB9009AE644 /* The Thirty Nine Steps.pdf in Resources */,
+				56C0828520AECE55009AE644 /* the-prisoner-of-zenda-cover.jpg in Resources */,
+				56C0828120AECE45009AE644 /* the-ancient-allan-cover.jpg in Resources */,
+				56C082A720AED456009AE644 /* greenmantle-book-cover.jpg in Resources */,
+				56C082B520AEDAD1009AE644 /* Dracula's Guest.pdf in Resources */,
+				56C0825220AECD4B009AE644 /* Main.storyboard in Resources */,
+				56C082F120AEE739009AE644 /* Star of India.pdf in Resources */,
+				56C082E120AEDF68009AE644 /* terror-from-depth-book-cover.jpg in Resources */,
+				56C0828720AECE5D009AE644 /* the-thirty-nine-steps-cover.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0825E20AECD4C009AE644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0826920AECD4C009AE644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56C0824520AECD4B009AE644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C0838020B0C81B009AE644 /* DetailViewController.swift in Sources */,
+				56C082E920AEE6E4009AE644 /* RomanceVC.swift in Sources */,
+				56C0825520AECD4B009AE644 /* StoriesShelf.xcdatamodeld in Sources */,
+				56C0830320AEEAED009AE644 /* HumorVC.swift in Sources */,
+				56C082E520AEDFAA009AE644 /* FictionVC.swift in Sources */,
+				56C0829920AED396009AE644 /* MysteryVC.swift in Sources */,
+				56C0824F20AECD4B009AE644 /* ViewController.swift in Sources */,
+				56C0837E20B0953E009AE644 /* NotesViewController.swift in Sources */,
+				56C0824D20AECD4B009AE644 /* AppDelegate.swift in Sources */,
+				56C082B320AEDA79009AE644 /* HorrorVC.swift in Sources */,
+				56C0829720AECF43009AE644 /* AdventureVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0825C20AECD4C009AE644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C0826520AECD4C009AE644 /* StoriesShelfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C0826720AECD4C009AE644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C0827020AECD4C009AE644 /* StoriesShelfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56C0826220AECD4C009AE644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56C0824820AECD4B009AE644 /* StoriesShelf */;
+			targetProxy = 56C0826120AECD4C009AE644 /* PBXContainerItemProxy */;
+		};
+		56C0826D20AECD4C009AE644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56C0824820AECD4B009AE644 /* StoriesShelf */;
+			targetProxy = 56C0826C20AECD4C009AE644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56C0825020AECD4B009AE644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C0825120AECD4B009AE644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56C0825820AECD4C009AE644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C0825920AECD4C009AE644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56C0827220AECD4C009AE644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56C0827320AECD4C009AE644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56C0827520AECD4C009AE644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = StoriesShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deakin.StoriesShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56C0827620AECD4C009AE644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = StoriesShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deakin.StoriesShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56C0827820AECD4C009AE644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = StoriesShelfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deakin.StoriesShelfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoriesShelf.app/StoriesShelf";
+			};
+			name = Debug;
+		};
+		56C0827920AECD4C009AE644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = StoriesShelfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deakin.StoriesShelfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoriesShelf.app/StoriesShelf";
+			};
+			name = Release;
+		};
+		56C0827B20AECD4C009AE644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = StoriesShelfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deakin.StoriesShelfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoriesShelf;
+			};
+			name = Debug;
+		};
+		56C0827C20AECD4C009AE644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24SM6522LU;
+				INFOPLIST_FILE = StoriesShelfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deakin.StoriesShelfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoriesShelf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56C0824420AECD4B009AE644 /* Build configuration list for PBXProject "StoriesShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C0827220AECD4C009AE644 /* Debug */,
+				56C0827320AECD4C009AE644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C0827420AECD4C009AE644 /* Build configuration list for PBXNativeTarget "StoriesShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C0827520AECD4C009AE644 /* Debug */,
+				56C0827620AECD4C009AE644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C0827720AECD4C009AE644 /* Build configuration list for PBXNativeTarget "StoriesShelfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C0827820AECD4C009AE644 /* Debug */,
+				56C0827920AECD4C009AE644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C0827A20AECD4C009AE644 /* Build configuration list for PBXNativeTarget "StoriesShelfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C0827B20AECD4C009AE644 /* Debug */,
+				56C0827C20AECD4C009AE644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		56C0825320AECD4B009AE644 /* StoriesShelf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56C0825420AECD4B009AE644 /* StoriesShelf.xcdatamodel */,
+			);
+			currentVersion = 56C0825420AECD4B009AE644 /* StoriesShelf.xcdatamodel */;
+			path = StoriesShelf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 56C0824120AECD4B009AE644 /* Project object */;
+}
