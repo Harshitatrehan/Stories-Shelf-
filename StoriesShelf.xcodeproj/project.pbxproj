@@ -95,6 +95,23 @@
 		56C0831B20AEEE15009AE644 /* house-boat-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C0831A20AEEE0F009AE644 /* house-boat-book-cover.jpg */; };
 		56C0837E20B0953E009AE644 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0837D20B0953E009AE644 /* NotesViewController.swift */; };
 		56C0838020B0C81B009AE644 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0837F20B0C81B009AE644 /* DetailViewController.swift */; };
+		56D5F2A420B998C000B76A8C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D5F2A320B998C000B76A8C /* RegisterViewController.swift */; };
+		56D5F2A620B9A65300B76A8C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D5F2A520B9A65300B76A8C /* LoginViewController.swift */; };
+		56D5F2A820BA8B1D00B76A8C /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D5F2A720BA8B1D00B76A8C /* Bookmark.swift */; };
+		56D5F2AA20BABE4200B76A8C /* Adventure Category.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2A920BABE3A00B76A8C /* Adventure Category.png */; };
+		56D5F2AC20BABEFC00B76A8C /* Mystery Category.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2AB20BABEF200B76A8C /* Mystery Category.png */; };
+		56D5F2AE20BABFB600B76A8C /* Horror Category.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2AD20BABFAC00B76A8C /* Horror Category.png */; };
+		56D5F2B020BAC08800B76A8C /* Science Category.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2AF20BAC07E00B76A8C /* Science Category.png */; };
+		56D5F2B220BAC1C700B76A8C /* Romance Category.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2B120BAC1BE00B76A8C /* Romance Category.png */; };
+		56D5F2B420BAC21300B76A8C /* Humor Category.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2B320BAC20B00B76A8C /* Humor Category.png */; };
+		56D5F2B620BAC30600B76A8C /* Notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2B520BAC2FC00B76A8C /* Notes.png */; };
+		56D5F2B820BAC43400B76A8C /* More Books.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2B720BAC42B00B76A8C /* More Books.png */; };
+		56D5F2BA20BAC48600B76A8C /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2B920BAC47D00B76A8C /* logout.png */; };
+		56D5F2BC20BAD15900B76A8C /* story shelf title.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2BB20BAD14F00B76A8C /* story shelf title.png */; };
+		56D5F2C020BAD2F800B76A8C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2BF20BAD2ED00B76A8C /* home.png */; };
+		56D5F2C220BAD57800B76A8C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2C120BAD56D00B76A8C /* back.png */; };
+		56D5F2C420BAD8CB00B76A8C /* register.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2C320BAD8BF00B76A8C /* register.png */; };
+		56D5F2C620BAD91A00B76A8C /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D5F2C520BAD91000B76A8C /* login.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +226,23 @@
 		56C0831A20AEEE0F009AE644 /* house-boat-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "house-boat-book-cover.jpg"; sourceTree = "<group>"; };
 		56C0837D20B0953E009AE644 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		56C0837F20B0C81B009AE644 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		56D5F2A320B998C000B76A8C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		56D5F2A520B9A65300B76A8C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		56D5F2A720BA8B1D00B76A8C /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		56D5F2A920BABE3A00B76A8C /* Adventure Category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adventure Category.png"; sourceTree = "<group>"; };
+		56D5F2AB20BABEF200B76A8C /* Mystery Category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mystery Category.png"; sourceTree = "<group>"; };
+		56D5F2AD20BABFAC00B76A8C /* Horror Category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horror Category.png"; sourceTree = "<group>"; };
+		56D5F2AF20BAC07E00B76A8C /* Science Category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Science Category.png"; sourceTree = "<group>"; };
+		56D5F2B120BAC1BE00B76A8C /* Romance Category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Romance Category.png"; sourceTree = "<group>"; };
+		56D5F2B320BAC20B00B76A8C /* Humor Category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Humor Category.png"; sourceTree = "<group>"; };
+		56D5F2B520BAC2FC00B76A8C /* Notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notes.png; sourceTree = "<group>"; };
+		56D5F2B720BAC42B00B76A8C /* More Books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "More Books.png"; sourceTree = "<group>"; };
+		56D5F2B920BAC47D00B76A8C /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		56D5F2BB20BAD14F00B76A8C /* story shelf title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "story shelf title.png"; sourceTree = "<group>"; };
+		56D5F2BF20BAD2ED00B76A8C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		56D5F2C120BAD56D00B76A8C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		56D5F2C320BAD8BF00B76A8C /* register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register.png; sourceTree = "<group>"; };
+		56D5F2C520BAD91000B76A8C /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,8 +304,25 @@
 				56C0830220AEEAED009AE644 /* HumorVC.swift */,
 				56C0837D20B0953E009AE644 /* NotesViewController.swift */,
 				56C0837F20B0C81B009AE644 /* DetailViewController.swift */,
+				56D5F2A320B998C000B76A8C /* RegisterViewController.swift */,
+				56D5F2A520B9A65300B76A8C /* LoginViewController.swift */,
+				56D5F2A720BA8B1D00B76A8C /* Bookmark.swift */,
 				56C0825020AECD4B009AE644 /* Main.storyboard */,
 				56C0825620AECD4C009AE644 /* Assets.xcassets */,
+				56D5F2C520BAD91000B76A8C /* login.png */,
+				56D5F2C320BAD8BF00B76A8C /* register.png */,
+				56D5F2C120BAD56D00B76A8C /* back.png */,
+				56D5F2BF20BAD2ED00B76A8C /* home.png */,
+				56D5F2BB20BAD14F00B76A8C /* story shelf title.png */,
+				56D5F2B920BAC47D00B76A8C /* logout.png */,
+				56D5F2B720BAC42B00B76A8C /* More Books.png */,
+				56D5F2B520BAC2FC00B76A8C /* Notes.png */,
+				56D5F2B320BAC20B00B76A8C /* Humor Category.png */,
+				56D5F2B120BAC1BE00B76A8C /* Romance Category.png */,
+				56D5F2AF20BAC07E00B76A8C /* Science Category.png */,
+				56D5F2AD20BABFAC00B76A8C /* Horror Category.png */,
+				56D5F2AB20BABEF200B76A8C /* Mystery Category.png */,
+				56D5F2A920BABE3A00B76A8C /* Adventure Category.png */,
 				56C0831A20AEEE0F009AE644 /* house-boat-book-cover.jpg */,
 				56C0831820AEEDF7009AE644 /* spirit-in-exile-book-cover.jpg */,
 				56C0831620AEEDE7009AE644 /* bindle-book-cover.jpg */,
@@ -485,11 +536,17 @@
 				56C0830920AEEC8D009AE644 /* Adventures of Bindle.pdf in Resources */,
 				56C082AD20AED475009AE644 /* the-secret-agent-book-cover.jpg in Resources */,
 				56C082CB20AEDB6F009AE644 /* the-sorcery-club-book-cover.jpg in Resources */,
+				56D5F2AA20BABE4200B76A8C /* Adventure Category.png in Resources */,
 				56C0828D20AECE83009AE644 /* The Ancient Allan.pdf in Resources */,
 				56C082F920AEE770009AE644 /* star-of-india-book-cover.jpg in Resources */,
+				56D5F2C220BAD57800B76A8C /* back.png in Resources */,
 				56C0825A20AECD4C009AE644 /* LaunchScreen.storyboard in Resources */,
 				56C082BB20AEDAE4009AE644 /* The House on the Borderland.pdf in Resources */,
+				56D5F2B220BAC1C700B76A8C /* Romance Category.png in Resources */,
+				56D5F2BA20BAC48600B76A8C /* logout.png in Resources */,
 				56C0830720AEEC86009AE644 /* The New Pun Book.pdf in Resources */,
+				56D5F2BC20BAD15900B76A8C /* story shelf title.png in Resources */,
+				56D5F2C620BAD91A00B76A8C /* login.png in Resources */,
 				56C082EF20AEE734009AE644 /* Only A Girl's Love.pdf in Resources */,
 				56C0827F20AECE3D009AE644 /* man-in-the-iron-mask-cover.jpg in Resources */,
 				56C082B720AEDAD7009AE644 /* The House of Souls.pdf in Resources */,
@@ -498,6 +555,7 @@
 				56C082A520AED44F009AE644 /* The Woman in White.pdf in Resources */,
 				56C0831B20AEEE15009AE644 /* house-boat-book-cover.jpg in Resources */,
 				56C082A120AED434009AE644 /* The Secret Agent.pdf in Resources */,
+				56D5F2C020BAD2F800B76A8C /* home.png in Resources */,
 				56C082CF20AEDEE2009AE644 /* The End of Time.pdf in Resources */,
 				56C082AB20AED46C009AE644 /* the-moonstone-book-cover.jpg in Resources */,
 				56C082D120AEDEE7009AE644 /* The Lost Warship.pdf in Resources */,
@@ -515,6 +573,7 @@
 				56C082B120AED49C009AE644 /* women-in-white-book-cover.jpg in Resources */,
 				56C082F720AEE761009AE644 /* falling-in-love-book-cover.jpg in Resources */,
 				56C082F520AEE744009AE644 /* Wastralls.pdf in Resources */,
+				56D5F2B420BAC21300B76A8C /* Humor Category.png in Resources */,
 				56C082FD20AEE786009AE644 /* the-evolution-of-love-book-cover.jpg in Resources */,
 				56C082FB20AEE77A009AE644 /* hints-for-lovers-book-cover.jpg in Resources */,
 				56C0828B20AECE75009AE644 /* The Man in the Iron Mask.pdf in Resources */,
@@ -522,6 +581,7 @@
 				56C0830120AEE7BF009AE644 /* only-a-girls-love.jpg in Resources */,
 				56C0831520AEEDD3009AE644 /* the-new-pun-book-cover.jpg in Resources */,
 				56C0831320AEED3D009AE644 /* the-inventions-of-the-idiot-book-cover.jpg in Resources */,
+				56D5F2B820BAC43400B76A8C /* More Books.png in Resources */,
 				56C0828F20AECE8B009AE644 /* The Pathless Trail.pdf in Resources */,
 				56C082D720AEDF2A009AE644 /* When the Sleepers Woke.pdf in Resources */,
 				56C0830B20AEEC93009AE644 /* Toppleton's Client.pdf in Resources */,
@@ -532,8 +592,10 @@
 				56C082DD20AEDF52009AE644 /* the-lost-warship-book-cover.jpg in Resources */,
 				56C082C520AEDB50009AE644 /* the-house-of-the-vampire-book-cover.jpg in Resources */,
 				56C082F320AEE73E009AE644 /* The Evolution of Love.pdf in Resources */,
+				56D5F2C420BAD8CB00B76A8C /* register.png in Resources */,
 				56C0829B20AED421009AE644 /* Greenmantle.pdf in Resources */,
 				56C0829320AECE9F009AE644 /* Twenty Years After.pdf in Resources */,
+				56D5F2B620BAC30600B76A8C /* Notes.png in Resources */,
 				56C0830D20AEEC98009AE644 /* The Diary of a Nobody.pdf in Resources */,
 				56C082B920AEDADD009AE644 /* The House of the Vampire.pdf in Resources */,
 				56C082C120AEDB3D009AE644 /* draculas-guest-book-cover.jpg in Resources */,
@@ -542,14 +604,17 @@
 				56C082C920AEDB65009AE644 /* the-lady-of-the-shroud-book-cover.jpg in Resources */,
 				56C082DF20AEDF5E009AE644 /* the-secret-of-the-ninth-planet-book-cover.jpg in Resources */,
 				56C082D320AEDEF0009AE644 /* The Secret of the Ninth Planet.pdf in Resources */,
+				56D5F2B020BAC08800B76A8C /* Science Category.png in Resources */,
 				56C082A920AED464009AE644 /* the-beetle-book-cover.jpg in Resources */,
 				56C082D920AEDF41009AE644 /* trail-of-space-book-cover.jpg in Resources */,
 				56C082BD20AEDAEB009AE644 /* The Lady of the Shroud.pdf in Resources */,
 				56C0830F20AEEC9E009AE644 /* A House-Boat on the Styx.pdf in Resources */,
+				56D5F2AC20BABEFC00B76A8C /* Mystery Category.png in Resources */,
 				56C0829520AECEB9009AE644 /* The Thirty Nine Steps.pdf in Resources */,
 				56C0828520AECE55009AE644 /* the-prisoner-of-zenda-cover.jpg in Resources */,
 				56C0828120AECE45009AE644 /* the-ancient-allan-cover.jpg in Resources */,
 				56C082A720AED456009AE644 /* greenmantle-book-cover.jpg in Resources */,
+				56D5F2AE20BABFB600B76A8C /* Horror Category.png in Resources */,
 				56C082B520AEDAD1009AE644 /* Dracula's Guest.pdf in Resources */,
 				56C0825220AECD4B009AE644 /* Main.storyboard in Resources */,
 				56C082F120AEE739009AE644 /* Star of India.pdf in Resources */,
@@ -582,13 +647,16 @@
 				56C0838020B0C81B009AE644 /* DetailViewController.swift in Sources */,
 				56C082E920AEE6E4009AE644 /* RomanceVC.swift in Sources */,
 				56C0825520AECD4B009AE644 /* StoriesShelf.xcdatamodeld in Sources */,
+				56D5F2A420B998C000B76A8C /* RegisterViewController.swift in Sources */,
 				56C0830320AEEAED009AE644 /* HumorVC.swift in Sources */,
+				56D5F2A820BA8B1D00B76A8C /* Bookmark.swift in Sources */,
 				56C082E520AEDFAA009AE644 /* FictionVC.swift in Sources */,
 				56C0829920AED396009AE644 /* MysteryVC.swift in Sources */,
 				56C0824F20AECD4B009AE644 /* ViewController.swift in Sources */,
 				56C0837E20B0953E009AE644 /* NotesViewController.swift in Sources */,
 				56C0824D20AECD4B009AE644 /* AppDelegate.swift in Sources */,
 				56C082B320AEDA79009AE644 /* HorrorVC.swift in Sources */,
+				56D5F2A620B9A65300B76A8C /* LoginViewController.swift in Sources */,
 				56C0829720AECF43009AE644 /* AdventureVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

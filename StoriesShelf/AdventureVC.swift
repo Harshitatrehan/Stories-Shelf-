@@ -19,6 +19,7 @@ class AdventureVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //set backgriund color to black
 
         // Do any additional setup after loading the view.
     }
@@ -35,7 +36,7 @@ class AdventureVC: UIViewController {
             self.navigationController?.pushViewController(pdfVC, animated:true )
             
         }
-    }
+    } 
     
     
     @IBAction func allan(_ sender: Any) {
